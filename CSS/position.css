@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 3000vh;
+}
+.box {
+  width: 400px;
+  height: 300px;
+  border: 3px solid black;
+  margin: 100px;
+}
+.img {
+  height: 150px;
+}
+.img:nth-child(1) {
+}
+
+.img:nth-child(2) {
+  position: fixed;
+  top: 60px;
+  right: 50px;
+}
+.img:nth-child(3) {
+}
